@@ -3,14 +3,14 @@
 
 #define MyAppName "File Scanner"
 #define MyAppVersion "1.0"
-#define MyAppPublisher "Your Company Name"
+#define MyAppPublisher "MihaiS"
 #define MyAppExeName "file_scanner.exe"
 
 [Setup]
 AppId={{754b2181-ff5c-4610-935d-1274df257883}} 
-AppName={#File_Scanner}
-AppVersion={#1.0}
-AppPublisher={#MihaiS}
+AppName={#MyAppName}
+AppVersion={#MyAppVersion}
+AppPublisher={#MyAppPublisher}
 DefaultDirName={autopf}\{#MyAppName}  ; Installs to C:\Program Files\File Scanner
 DefaultGroupName={#MyAppName}
 OutputDir=.\dist
